@@ -36,6 +36,11 @@ quasar build -m cordova -T android --stacktrace
 ```bash
 cordova build android --verbose
 ```
+or 
+
+```bash
+cordova build android --release -- --keystore="..\android.keystore" --storePassword=android --alias=mykey
+```
 ## Run Application on emulator
 ```bash
  quasar dev -m android
